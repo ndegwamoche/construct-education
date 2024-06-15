@@ -1,0 +1,136 @@
+/*!
+Theme Name: Construct Education
+Theme URI: https://github.com/ndegwamoche/construct-education
+Author: Martin Ndegwa Moche
+Author URI: https://github.com/ndegwamoche/
+Description: I developed this theme as part of my participation in the recruitment process at Construct Education.
+Version: 1.0.0
+
+/* Update the fontss to Open Sans */
+
+body {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+h6,
+.h6,
+h5,
+.h5,
+h4,
+.h4,
+h3,
+.h3,
+h2,
+.h2,
+h1,
+.h1 {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+.font-alt {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+#mainNav .navbar-brand {
+    font-family: 'Open Sans', sans-serif !important;
+}
+
+/* Update the colors */
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: #1e3d79 !important;
+    font-weight: 650;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('assets/icons/menu.png');
+}
+
+.btn-primary {
+    background-color: #1e3d79 !important;
+    border-radius: 0px;
+}
+
+@media (max-width: 768px) {
+    .masthead {
+        background-size: contain !important;
+    }
+}
+
+.main-header {
+    height: 70vh !important;
+    min-height: 400px !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none !important;
+}
+
+.px-6 {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+/* Breadcrumb css*/
+
+.breadcrumb-item {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #1e3d79 !important;
+}
+
+.breadcrumb-item a {
+    font-family: 'Open Sans', sans-serif !important;
+    text-decoration: none;
+    color: #1e3d79 !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    color: #1e3d79 !important;
+    content: "\003e" !important;
+    font-weight: 600 !important;
+    font-size: 15px !important;
+}
+
+.fs-4 {
+    font-size: 15px !important;
+    padding-left: 7rem;
+    padding-right: 7rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.display-5 {
+    font-size: 40px !important;
+}
+
+.form-control {
+    border: none !important;
+}
+
+.input-group {
+    border: 1px solid #ced4da !important;
+    border-radius: 3px !important;
+}
+
+::placeholder {
+    color: #B0B0B0 !important;
+    font-size: 16px;
+}
+
+.construct-education-border-bottom {
+    border-bottom: 2px solid rgba(30, 61, 121, .5);
+}
+
+.card {
+    background-color: #F0F1F0 !important;
+    border: 0px !important;
+    border-radius: 0px !important;
+}
+
+.p-checkbox {
+    padding: 0.8rem !important;
+}
