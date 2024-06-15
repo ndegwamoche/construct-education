@@ -33,7 +33,7 @@
             if (has_custom_logo()) {
                 echo '<a class="navbar-brand fw-bold" href="' . home_url('/') . '"><img src="' . esc_url($logo[0]) . '" alt="' . get_bloginfo('name') . '"></a>';
             } else {
-                echo '<a class="navbar-brand fw-bold" href="' . home_url('/') . '"><img src="' . esc_url(get_theme_file_uri('/assets/img/logo.png')) . '" alt="' . get_bloginfo('name') . '"></a>';
+                echo '<a class="navbar-brand fw-bold" href="' . home_url('/') . '"><img src="' . esc_url(get_theme_file_uri('/assets/img/logo_dark.png')) . '" alt="' . get_bloginfo('name') . '"></a>';
             }
             ?>
 
