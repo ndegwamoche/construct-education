@@ -20,19 +20,43 @@
 
         <div class="row">
             <div class="col-md-4 links-column text-md-left">
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
+                <?php
+                if (has_nav_menu('footer-menu-1')) {
+                    wp_nav_menu(
+                        array(
+                            'container' => false,
+                            'theme_location' => 'footer-menu-1',
+                            'walker' => new Custom_Walker_Nav_Menu(),
+                        )
+                    );
+                }
+                ?>
             </div>
             <div class="col-md-4 links-column  text-md-center">
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
+                <?php
+                if (has_nav_menu('footer-menu-2')) {
+                    wp_nav_menu(
+                        array(
+                            'container' => false,
+                            'theme_location' => 'footer-menu-2',
+                            'walker' => new Custom_Walker_Nav_Menu(),
+                        )
+                    );
+                }
+                ?>
             </div>
             <div class="col-md-4 links-column  text-md-right">
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
-                <p>Nisi aliquet in quis aenean nisi</p>
+                <?php
+                if (has_nav_menu('footer-menu-3')) {
+                    wp_nav_menu(
+                        array(
+                            'container' => false,
+                            'theme_location' => 'footer-menu-3',
+                            'walker' => new Custom_Walker_Nav_Menu(),
+                        )
+                    );
+                }
+                ?>
             </div>
         </div>
 

@@ -48,19 +48,16 @@ h1,
     border-radius: 0px;
 }
 
-/* Hide the main header entirely */
 .main-header {
     display: none;
 }
 
-/* Optionally, you can set a background image for a different element if needed */
 .new-header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-image: url('assets/img/main_image.jpg');
-    height: 70vh; /* Adjust the height as needed */
-    min-height: 400px; /* Ensure a minimum height */
+    height: 70vh;
+    min-height: 400px;
     width: 100%;
 }
 
@@ -69,10 +66,19 @@ h1,
     .new-header {
         background-size: contain;
         height: auto;
-        padding-top: 100%; 
+        padding-top: 100%;
         margin-bottom: -140px;
         margin-top: -50px;
     }
+
+    .col-lg-5.text-right.text-center {
+        text-align: center !important;
+    }
+
+    .center-on-small {
+        text-align: center !important;
+    }
+
 }
 
 .navbar-light .navbar-toggler {
@@ -237,6 +243,11 @@ section {
     margin-top: 20px;
 }
 
+footer a {
+    color: #ffffff !important;
+}
+
+
 .custom-section {
     padding: 60px 0;
 }
@@ -256,4 +267,42 @@ section {
     padding-right: 8rem !important;
     padding-left: 8rem !important;
     padding-bottom: 1rem;
+}
+
+.carousel {
+    background: #FAFAFA;
+}
+
+.carousel-cell {
+    margin-right: 10px;
+    background: #ffffff;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.carousel-cell-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.caption {
+    color: #111111;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    grid-row: 2;
+    margin-top: 20px;
+}
+
+.button-row {
+    text-align: center;
+}
+
+.mr-15 {
+    margin-right: 15rem;
 }
