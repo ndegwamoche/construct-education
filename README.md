@@ -34,7 +34,7 @@
         <li><strong>header.php</strong> - Contains the header section of the theme.</li>
         <li><strong>footer.php</strong> - Contains the footer section of the theme.</li>
         <li><strong>styles.css</strong> - Contains all the custom CSS styles for the theme.</li>
-        <li><strong>index.php</strong> - The main template file that includes the header, footer, and main content sections.</li>
+        <li><strong></strong> - The main template file that includes the header, footer, and main content sections.</li>
     </ul>
     <h2>Header Section (header.php)</h2>
     <pre>
@@ -122,29 +122,9 @@
             &lt;/div&gt;
         &lt;/footer&gt;
     </pre>
-    <h2>Main Template (index.php)</h2>
-    <pre>
-        &lt;!DOCTYPE html&gt;
-        &lt;html lang="en"&gt;
-        &lt;head&gt;
-            &lt;meta charset="UTF-8"&gt;
-            &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-            &lt;title&gt;&lt;?php bloginfo('name'); ?&gt;&lt;/title&gt;
-            &lt;?php wp_head(); ?&gt;
-        &lt;/head&gt;
-        &lt;body &lt;?php body_class(); ?&gt;&gt;
-            &lt;?php get_header(); ?&gt;
-            &lt;div class="container"&gt;
-                &lt;!-- Main content starts here --&gt;
-                &lt;section class="custom-section"&gt;
-                    &lt;h1&gt;&lt;?php the_title(); ?&gt;&lt;/h1&gt;
-                    &lt;p&gt;&lt;?php the_content(); ?&gt;&lt;/p&gt;
-                &lt;/section&gt;
-            &lt;/div&gt;
-            &lt;?php get_footer(); ?&gt;
-            &lt;?php wp_footer(); ?&gt;
-        &lt;/body&gt;
-        &lt;/html&gt;
+    
+<?php
+get_footer();
     </pre>
     <h2>CSS Styles (styles.css)</h2>
     <pre>
