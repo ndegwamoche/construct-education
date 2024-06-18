@@ -3,7 +3,7 @@
 /**
  * Header
  * 
- * @link hhttps://github.com/ndegwamoche/construct-education
+ * @link https://github.com/ndegwamoche/construct-education
  *
  * @package construct-education
  */
