@@ -26,6 +26,7 @@
      <section>
             <h2>Project Overview</h2>
             <p>This project involves converting a provided Figma design into a fully functional WordPress website. The Figma design can be accessed <a target="_blank" href="https://www.figma.com/design/MCqnZoZ0N5YxX1bBrqQSIF/Design---Dev-Task?node-id=0-1&t=BJGkDnqf5i1PkdZH-0">here</a>. The design consists of multiple sections including headers, buttons, image placeholders, content sections, and a footer.</p>
+         <img src='https://github.com/ndegwamoche/construct-education/blob/main/screenshot.png'/>
         </section>
     <h2>File Structure</h2>
     <p>The theme includes the following main files:</p>
